@@ -19,11 +19,11 @@ const Sidenav = () => {
          </div>
 
         <ul className="Nav">
-            <li> <Link className='nav-link' to=""> <FontAwesomeIcon icon={faHome} /> Home </Link> </li>
-            <li> <Link className='nav-link' to=""> <FontAwesomeIcon icon={faUser} /> About </Link> </li>
-            <li> <Link className='nav-link' to=""> <FontAwesomeIcon icon={faBriefcase} /> Projects </Link> </li>
-            <li> <Link className='nav-link' to=""> <FontAwesomeIcon icon={faEnvelope} /> Blogs </Link> </li>
-            <li> <Link className='nav-link' to=""> <FontAwesomeIcon icon={faComments} /> Contacts </Link> </li>
+            <li> <Link className='nav-link' to="/"> <FontAwesomeIcon icon={faHome} /> Home </Link> </li>
+            <li> <Link className='nav-link' to="/about"> <FontAwesomeIcon icon={faUser} /> About </Link> </li>
+            <li> <Link className='nav-link' to="/projects"> <FontAwesomeIcon icon={faBriefcase} /> Projects </Link> </li>
+            <li> <Link className='nav-link' to="/blogs"> <FontAwesomeIcon icon={faEnvelope} /> Blogs </Link> </li>
+            <li> <Link className='nav-link' to="/contacts"> <FontAwesomeIcon icon={faComments} /> Contacts </Link> </li>
         </ul>
         
         {/* Copyright  */}

@@ -73,10 +73,106 @@ padding-bottom: 70px;
 .about .about-content .personal-info{
     flex: 0 0 60%;
     max-width: 60%;
-    background-color: red;
+    margin-top: 40px;
+}
+.about .about-content .personal-info .info-item{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.about .about-content .personal-info .info-item p{
+    font-weight: 600;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #302e4d;
+    margin: 0;
+    border-bottom: 1px solid #e8dfec;
+}
+.about .about-content .personal-info .info-item p span{
+    font-weight: 400;
+    color: #504e70;
+    margin-left: 4px;
+    display: inline-block;
+}
+.about .about-content .personal-info .buttons{
+    margin-top: 30px;
+}
+.about .about-content .personal-info .buttons .btn{
+    margin-right: 15px;
+    margin-top: 10px;
 }
 .about .about-content .skills{
-    flex: 0 0 60%;
-    max-width: 60%;
-    background-color: blue;
+    flex: 0 0 40%;
+    max-width: 40%;
+    margin-top: 40px;
+}
+.btn{
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    padding: 12px 35px;
+    color: #fff;
+    border-radius: 40px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.about .about-content .skills{
+    flex: 0 0 40%;
+    max-width: 40%;
+    margin-top: 40px;
+}
+.about .about-content .skills .skill-item{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.about .about-content .skills .skill-item h5{
+    line-height: 25px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #302e4d;
+    text-transform: capitalize;
+    margin: 0;
+}
+.about .about-content .skills .skill-item .progress{
+    background-color: #e3e3e3;
+    height: 8px;
+    border-radius: 4px;
+    width: 100%;
+    position: relative;
+    overflow: visible;
+}
+.about .about-content .skills .skill-item .progress .progress-in{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    border-radius: 4px;
+}
+.about .about-content .skills .skill-item .progress .skill-percent{
+    line-height: 40px;
+    position: absolute;
+    right: 0;
+    color: #302e4d;
+    top: -40px;
+    font-weight: 400;
+}
+
+.about .about-content .education{
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-top: 30px;
+}
+.about .about-content .course{
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-top: 30px;
+}
+.about .about-content h3.title{
+    font-size: 24px;
+    font-weight: 700;
+    color: #302e4d;
 }
