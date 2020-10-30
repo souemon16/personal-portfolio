@@ -1,0 +1,7 @@
+.section-title h2::before,
+.section-title h2::after{
+    background-color: #ec1839;
+}
+.about .about-content .about-text h3 span{
+    color: #ec1839;
+}

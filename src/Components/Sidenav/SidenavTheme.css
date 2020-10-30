@@ -1,0 +1,21 @@
+.aside .logo .logo-title::before{
+    border-top: 4px solid #ec1839;
+    border-left: 4px solid #ec1839;
+}
+.aside .logo .logo-title::after{
+    border-right: 4px solid #ec1839;
+    border-bottom: 4px solid #ec1839;
+}
+.aside .logo .logo-title:hover{
+    /* color: #35e661; */
+    letter-spacing: 5px;
+}
+.aside .Nav li .nav-link:hover,
+.aside .Nav li .nav-link:active{
+    color: #ec1839;
+}
+.aside .nav-toggler span,
+.aside .nav-toggler span::before,
+.aside .nav-toggler span::after{
+    background-color: #ec1839;
+}
