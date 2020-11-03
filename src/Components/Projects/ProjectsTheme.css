@@ -1,0 +1,7 @@
+.projects .portfolio-filter button.active,
+.projects .portfolio-item .portfolio-info .icon .fa{
+    color: #ec1839;
+}
+.projects .portfolio-filter button.active{
+    border-color: #ec1839;
+}

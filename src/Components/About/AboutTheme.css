@@ -1,9 +1,12 @@
 .section-title h2::before,
 .section-title h2::after,
 .btn,
-.about .about-content .skills .skill-item .progress .progress-in{
+.about .about-content .skills .skill-item .progress .progress-in,
+.about .about-content .timeline .timeline-item::before,
+.about .about-content .timeline .circle-dot{
     background-color: #ec1839;
 }
+
 .about .about-content .about-text h3 span{
     color: #ec1839;
 }

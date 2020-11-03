@@ -4,7 +4,7 @@ import './SidenavTheme.css';
 import {
     Link
   } from "react-router-dom";
-import { faHome, faUser, faBriefcase, faEnvelope, faComments } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faUser, faBriefcase, faEnvelope, faComments, faUserCheck } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Sidenav = () => {
@@ -22,8 +22,8 @@ const Sidenav = () => {
             <li> <Link className='nav-link' to="/"> <FontAwesomeIcon icon={faHome} /> Home </Link> </li>
             <li> <Link className='nav-link' to="/about"> <FontAwesomeIcon icon={faUser} /> About </Link> </li>
             <li> <Link className='nav-link' to="/projects"> <FontAwesomeIcon icon={faBriefcase} /> Projects </Link> </li>
-            <li> <Link className='nav-link' to="/blogs"> <FontAwesomeIcon icon={faEnvelope} /> Blogs </Link> </li>
-            <li> <Link className='nav-link' to="/contacts"> <FontAwesomeIcon icon={faComments} /> Contacts </Link> </li>
+            <li> <Link className='nav-link' to="/testimonial"> <FontAwesomeIcon icon={faUserCheck} /> Testimonial </Link> </li>
+            <li> <Link className='nav-link' to="/contact"> <FontAwesomeIcon icon={faComments} /> Contact</Link> </li>
         </ul>
         
         {/* Copyright  */}

@@ -106,3 +106,22 @@
     font-size: 13px;
     color: #7d7d7d;
 }
+@media (max-width: 991px){
+    .aside{
+        width: 200px;
+        padding: 0px 7px;
+    }
+  }
+
+  @media (max-width: 724px){
+    .aside{
+        width: 150px;
+        padding: 0;
+    }
+    .aside .logo .logo-title{
+        font-size: 25px;
+    }
+    .aside .Nav li .nav-link{
+        font-size: 12px;
+    }
+  }

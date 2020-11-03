@@ -120,19 +120,82 @@ const About = () => {
                                     <h3 className="title">Education</h3>
                                     <div className="row">
                                         <div className="timeline-box padd-15">
-                                        <div className="timeline shadow-dark">
-                                        <div className="circle-dot"></div>
-                                        <h6 className="timeline-date">
-                                        <FontAwesomeIcon icon={faCalendar} /> 2014-2016
-                                        </h6>
-                                        <h4 className="timeline-title">S.S.C</h4>
-                                        <p className="timeline-text"></p>
-                                        </div>
+                                            <div className="timeline shadow-dark">
+                                                {/* Timeline Item Start  */}
+                                                <div className="timeline-item">
+                                                    <div className="circle-dot"></div>
+                                                    <h6 className="timeline-date">
+                                                        <FontAwesomeIcon style={{ marginRight: '5px' }} icon={faCalendar} /> 2014 - 2016
+                                                    </h6>
+                                                    <h4 className="timeline-title">S.S.C</h4>
+                                                    <p className="timeline-text">Science</p>
+                                                    <br/>
+                                                    <p className="timeline-text">Studied at University Laboratory School and Got GPA 4.44 out of Gpa 5.00</p>
+                                                </div>
+                                                {/* Timeline Item End  */}
+
+                                                {/* Timeline Item Start  */}
+                                                <div className="timeline-item">
+                                                    <div className="circle-dot"></div>
+                                                    <h6 className="timeline-date">
+                                                        <FontAwesomeIcon style={{ marginRight: '5px' }} icon={faCalendar} /> 2014 - 2016
+                                                    </h6>
+                                                    <h4 className="timeline-title">H.S.C</h4>
+                                                    <p className="timeline-text">Bussiness Studies</p>
+                                                    <br/>
+                                                    <p className="timeline-text">Studied at University Laboratory College and got GPA 4.00 out of Gpa 5.00</p>
+                                                </div>
+                                                {/* Timeline Item End  */}
+
+                                                {/* Timeline Item Start  */}
+                                                <div className="timeline-item">
+                                                    <div className="circle-dot"></div>
+                                                    <h6 className="timeline-date">
+                                                        <FontAwesomeIcon style={{ marginRight: '5px' }} icon={faCalendar} /> 2014 - 2016
+                                                    </h6>
+                                                    <h4 className="timeline-title">B.B.A</h4>
+                                                    <p className="timeline-text">Management</p>
+                                                    <br/>
+                                                    <p className="timeline-text">Result Is On The Way.</p>
+                                                </div>
+                                                {/* Timeline Item End  */}
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="course padd-15">
                                     <h3 className="title">Courses</h3>
+                                    <div className="row">
+                                        <div className="timeline-box padd-15">
+                                            <div className="timeline shadow-dark">
+                                                {/* Timeline Item Start  */}
+                                                <div className="timeline-item">
+                                                    <div className="circle-dot"></div>
+                                                    <h6 className="timeline-date">
+                                                        <FontAwesomeIcon style={{ marginRight: '5px'}} icon={faCalendar} /> 2019 - 2020
+                                                    </h6>
+                                                    <h4 className="timeline-title">Responsive Web Design</h4>
+                                                    <p className="timeline-text">FreeCodeCamp</p>
+                                                    <br/>
+                                                    <p className="timeline-text">FreeCodeCamp is one of best self learner website. Fully completed responsive web design course from FreeCodeCamp.</p>
+                                                </div>
+                                                {/* Timeline Item End  */}
+
+                                                {/* Timeline Item Start  */}
+                                                <div className="timeline-item">
+                                                    <div className="circle-dot"></div>
+                                                    <h6 className="timeline-date">
+                                                        <FontAwesomeIcon style={{ marginRight: '5px' }} icon={faCalendar} /> 2020 - 2020
+                                                    </h6>
+                                                    <h4 className="timeline-title">Complete Web Development Course</h4>
+                                                    <p className="timeline-text">Programming  Hero</p>
+                                                    <br/>
+                                                    <p className="timeline-text">I have completed web development course with a great point from Programming Hero. Where I have learn advance front end development and basic beckhend development.</p>
+                                                </div>
+                                                {/* Timeline Item End  */}
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

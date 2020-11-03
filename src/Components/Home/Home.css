@@ -63,3 +63,9 @@
 .home .intro .social-links a:hover{
     transform: scale(1.2);
 }
+
+@media (max-width: 1199px){
+    .main-content{
+        padding-left: 0;
+    }
+  }
